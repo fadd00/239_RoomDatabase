@@ -49,7 +49,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
-    implementation(libs.compose.icon)
+    implementation(libs.compose.icons)
     implementation(libs.bundles.room)
     ksp(libs.room.compiler)
     implementation(libs.lifecycle.viewmodel.compose)
@@ -63,5 +63,3 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 }
-
-
